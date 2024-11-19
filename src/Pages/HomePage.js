@@ -4,7 +4,7 @@ import image3 from '../Images/1Global link logo-01.png'
 import image4 from '../Images/19.jpg'
 import image5 from '../Images/21.jpg'
 import image6 from '../Images/20.jpg'
-import image7 from '../Images/23.jpg'
+import image7 from '../Images/help line.png'
 import image8 from '../Images/249144.jpg'
 import image9 from '../Images/portrait-female-pharmacist-working-drugstore.jpg'
 import {BiSolidQuoteSingleLeft, BiSolidQuoteSingleRight} from 'react-icons/bi'
@@ -81,7 +81,9 @@ const Home = () => {
                                                 </div>
                                             </div>
 
+
                                         </div>
+                                        <img src={image7} width='100%' />
                                     </div>
                                 </div>
                             </div>
