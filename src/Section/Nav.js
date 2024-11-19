@@ -36,10 +36,10 @@ const Navigation = () => {
                     <div className=" d-none d-md-flex justify-content-center flex-column">
                         <div className="d-flex MainNav" style={{ gap: '20px'}}>
                             <NavLink id='link' to='/' >Home</NavLink>
-                            <NavLink id='link' to='/About' >About us</NavLink>
+                            <NavLink id='link' to='/About' >About Us</NavLink>
                             <NavLink id='link' to='/OurServices' >Services</NavLink>
                             <NavLink id='link' to='/OurPartners' >Clients</NavLink>
-                            <NavLink id='link' to='/ContactUs' >Contact us</NavLink>
+                            <NavLink id='link' to='/ContactUs' >Contact Us</NavLink>
                         </div>
                     </div>
                     <div className="d-flex d-md-none justify-content-center flex-column">

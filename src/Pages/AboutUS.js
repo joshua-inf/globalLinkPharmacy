@@ -59,7 +59,6 @@ const AboutUS = () => {
                         />
                     </div>
                 </div>
-
                 <div className='text-light' style={{ background: `url(${image1}) center no-repeat`,  backgroundSize: 'cover' }}>
                     <div className='d-flex  px-4' style={{ backgroundColor: 'rgba(0, 0, 0,0.8)',paddingBlock:'100px', height: '100%', justifyContent:'start', alignContent:'center', alignItems:'center' }}>
                         <div className='container'>
@@ -93,7 +92,6 @@ const AboutUS = () => {
                                     </div>
                                 </div>
                             </div>
-
                             <div className='d-flex' style={{paddingTop:'150px',justifyContent:"center", alignContent:'center', alignItems:"center"}}>
                                 <div className=''>
                                     <div className='text-center'>
@@ -110,7 +108,6 @@ const AboutUS = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className='container' style={{minHeight:'70vh', paddingTop:"100px"}}>
                     <div className='row'>
                         <div className='col-12 py-5 px-4 col-md-6 order-2 order-md-1' style={{alignContent:'center'}}>
