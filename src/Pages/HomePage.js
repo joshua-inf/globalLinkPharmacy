@@ -6,11 +6,9 @@ import image5 from '../Images/21.jpg'
 import image6 from '../Images/20.jpg'
 import image7 from '../Images/help line.png'
 import image8 from '../Images/249144.jpg'
+import image10 from '../Images/Health-Consultations.jpg'
+import image11 from '../Images/Wellness-Products.jpg'
 import image9 from '../Images/portrait-female-pharmacist-working-drugstore.jpg'
-import {BiSolidQuoteSingleLeft, BiSolidQuoteSingleRight} from 'react-icons/bi'
-
-
-import { AiOutlineCheckCircle } from 'react-icons/ai'
 import { Testimonials } from './jsxcomponents'
 import { TestimonialsWriteups } from './info'
 
@@ -35,7 +33,7 @@ const Home = () => {
                                             <div className='col-6 col-md-3 p-2  option'>
                                                 <div className='shadow' style={{ height: '200px', position: 'relative' }}>
                                                     <div className='option-img'>
-                                                        <img src={image1} width='100%' className='' />
+                                                        <img src={image11} width='100%' className='' />
                                                         <div className='background'></div>
                                                     </div>
                                                     <div className='text-option' style={{}}>
@@ -71,7 +69,7 @@ const Home = () => {
                                             <div className='col-6 col-md-3 p-2 option'>
                                                 <div style={{ height: '200px', position: 'relative' }}>
                                                     <div className='option-img'>
-                                                        <img src={image6} width='100%' className='' />
+                                                        <img src={image10} width='100%' className='' />
                                                         <div className='background'></div>
                                                     </div>
                                                     <div className='text-option' style={{}}>
@@ -83,7 +81,9 @@ const Home = () => {
 
 
                                         </div>
-                                        <img src={image7} width='100%' />
+                                        <div style={{display:'flex', justifyContent:"center"}}>
+                                        <img src={image7} width='50%' />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
