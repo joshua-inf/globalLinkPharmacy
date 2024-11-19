@@ -1,7 +1,9 @@
 import image from '../Images/freepik__expand__76729.png'
 import image2 from '../Images/22.jpg'
-import { Corevalues, FounderComp, MissionsVisetc } from './jsxcomponents'
-import { founderData } from './info'
+import { FaCheckDouble } from "react-icons/fa";
+import image3 from '../Images/freepik_br_93db15b1-5d0d-44fb-a5b8-5797f9276161.png'
+import { Corevalues, FounderComp, MissionsVisetc, WhyChooseUs } from './jsxcomponents'
+import { data, founderData } from './info'
 
 const AboutUS = () => {
     return (
@@ -104,6 +106,27 @@ const AboutUS = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='container' style={{minHeight:'70vh', paddingTop:"100px"}}>
+                    <div className='row'>
+                        <div className='col-12 py-5 px-4 col-md-6 order-2 order-md-1' style={{alignContent:'center'}}>
+                            <div className='' style={{}}>
+                                <div className='display-6'>Why Choose Global Link Pharmacy?</div>
+                           <hr/>
+                                {data.map(e=> {
+                                    return (
+                                        <>
+                                        <WhyChooseUs data={e} />
+                                    </>
+                                    )
+                                    })}
+                            </div>
+                        </div>
+                        <div style={{alignContent:'center', alignItems:'center'}} className='order-md-2 d-flex col-12 col-md-6 order-1'>
+                            <img src={image3} width='100%'  />
                         </div>
                     </div>
                 </div>

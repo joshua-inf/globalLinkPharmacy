@@ -67,3 +67,10 @@ export let founderData = [
         links:{}
     }
 ]
+
+export let data = [
+    'Extensive Range of Medications and Health Products We pride ourselves on offering a comprehensive selection of pharmaceutical products to meet your diverse healthcare needs.',
+    "Expert Advice from Licensed PharmacistsOur team of highly qualified and licensed pharmacists is at the heart of our operations, committed to offering professional guidance and personalized care.",
+    "Convenient Location and Online Ordering We make accessing your medications and health products as easy and stress-free as possible.",
+    "Unwavering Commitment to Quality and Customer Satisfaction At Global Link Pharmacy, our mission is to deliver more than just medications—we strive to build lasting relationships with our customers."
+]

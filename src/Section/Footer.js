@@ -1,4 +1,4 @@
-import image from '../Images/Global link logo-white.png'
+import image from '../Images/Global link logo-ORIGINAL.png'
 import image2 from '../Images/choice.png'
 import {BiLogoFacebookSquare, BiLogoInstagramAlt, BiLogoLinkedinSquare, BiLogoTwitter} from 'react-icons/bi'
 const Footer = () => {

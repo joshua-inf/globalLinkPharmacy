@@ -1,8 +1,7 @@
 import image from '../Images/logo.png'
-import image1 from '../Images/Global link logo-white.png'
+import image1 from '../Images/Global link logo-ORIGINAL.png'
 
 import { Link, NavLink } from "react-router-dom";
-import {FiSearch} from 'react-icons/fi'
 import {ImMenu} from 'react-icons/im'
 import { useState } from 'react';
 
