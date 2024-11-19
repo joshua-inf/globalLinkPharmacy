@@ -10,14 +10,15 @@ const Navigation = () => {
     return (<>
         <div>
             <div className="">
-                <div className="d-flex fw-bold p-4" style={{ zIndex:'3',justifyContent: 'space-between', backgroundColor: 'rgba(142,180,102,0.8)',width:'100%', position:'fixed'}}>
+                <div className="d-flex fw-bold p-4" style={{ zIndex:'3',justifyContent: 'space-between', backgroundColor: 'rgba(41, 142, 0, 0.8)',width:'100%', position:'fixed'}}>
                     <div className="">
                         <NavLink className='' to='/pharmarcyapp/'>
-                            <img src={image1} width='150px'/>
+                            {/* <img src={image1} width='150px'/> */}
                         </NavLink>
                     </div>
                     <div className=" d-none d-md-flex justify-content-center flex-column">
                         <div className="d-flex MainNav" style={{ gap: '20px'}}>
+                            <NavLink id='link' to='/pharmarcyapp/' >Home</NavLink>
                             <NavLink id='link' to='/pharmarcyapp/Aboutus' >About us</NavLink>
                             <NavLink id='link' to='/pharmarcyapp/OurServices' >Services</NavLink>
                             <NavLink id='link' to='/pharmarcyapp/OurPartners' >Clients</NavLink>

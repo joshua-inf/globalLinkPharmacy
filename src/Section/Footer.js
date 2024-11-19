@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <>
             <div>
-                <div className=" bg-dark text-white" style={{}}>
-                    <div>
+                <div className=" bg-dark text-white " style={{}}>
+                    <div className="container">
                         <div className="">
                             <div className="d-md-flex p-3 d-block justify-content-between">
                                 <div className="text-uppercase d-flex justify-content-center flex-column display-4 fw-bold">header here</div>
