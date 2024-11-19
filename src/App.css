@@ -1,0 +1,53 @@
+
+a  {
+    color: white;
+    text-decoration: none;
+}
+.MainNav  .active  {
+    color: red;
+}
+
+.Header {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.text-option{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.option-img{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    overflow: hidden;
+}
+.option-img img {
+    transform: scale(2);
+    transition: all ease 0.6s;
+}
+.option{
+    cursor: pointer;
+}
+.option:hover img {
+    transform: scale(3);
+    transition: all ease 0.6s;
+}
