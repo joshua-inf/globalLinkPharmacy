@@ -1,53 +1,49 @@
-import { Link } from "react-router-dom";
-import {BsFacebook} from 'react-icons/bs'
-import {AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai'
-
+import image from '../Images/Global link logo-white.png'
+import image2 from '../Images/choice.png'
+import {BiLogoFacebookSquare, BiLogoInstagramAlt, BiLogoLinkedinSquare, BiLogoTwitter} from 'react-icons/bi'
 const Footer = () => {
     return (
         <>
             <div>
-                <div className=" bg-dark text-white " style={{}}>
-                    <div className="container">
-                        <div className="">
-                            <div className="d-md-flex p-3 d-block justify-content-between">
-                                <div className="text-uppercase d-flex justify-content-center flex-column display-4 fw-bold">header here</div>
-                                <div>
-                                    <div className="py-2">
-                                        <div className="h3 m-0">Join our news leter</div>
-                                        <div style={{fontSize:'15px'}}>Please join our news leter, and experience news like never before</div>
+                <div className='bg-dark text-white p-3'>
+                    <div className='row'>
+                        <div className='col-md-1'></div>
+                        <div className='col-12 col-md-10'>
+                            <div className=''>
+                                <div className='d-flex flex-column flex-md-row text-center justify-content-around  py-3' >
+                                    <div className='d-flex my-3 justify-content-center flex-md-column'>
+                                        <img src={image} width='200px' />
                                     </div>
-                                    <div>
-                                        <div>
-                                            <div class="input-group">
-                                                <input type="text" class="form-control" style={{maxWidth:'400px'}} aria-label="Text input with segmented dropdown button"/>
-                                                    <div class="input-group-append">
-                                                        <button type="button" class="btn btn-lg rounded-0 btn-danger">Search</button>
-                                                        
-                                                    </div>
-                                            </div></div>
+                                    <div className='d-flex my-3 justify-content-center flex-column'>
+                                        <div className='text-center'>
+                                            <div>Stay intouch</div>
+                                            <hr/>
+                                            <div style={{gap:'10px'}} className='fs-3 d-flex justify-content-evenly'>
+                                                <BiLogoFacebookSquare/>
+                                                <BiLogoInstagramAlt/>
+                                                <BiLogoTwitter/>
+                                                <BiLogoLinkedinSquare/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className=' d-flex my-3 justify-content-end flex-column py-3'>
+                                        <div style={{ fontSize: '11px' }}>
+                                            Created By <br />
+                                            <a href="http://choicecreations.co.zm/"><img src={image2} width='150px' /></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <hr className="mb-0"/>
-                            <div className="d-flex justify-content-end">
-                                <div className="bg-light text-black px-3 d-flex py-2" style={{gap:'10px'}}>
-                                    <Link><BsFacebook size={30}/></Link>
-                                    <Link><AiFillInstagram size={30}/></Link>
-                                    <Link><AiOutlineTwitter size={30}/></Link>
+                                <div style={{ fontSize: '11px' }} className='text-center d-flex  flex-column justify-content-center'>
+                                    <div>Copyright &copy;2024 | Global Link Pharmacy</div>
+                                    <div>Terms of use | Privacy Policy</div>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div className="text-center p-2" style={{fontSize:'12px'}}>
-                                &copy;2023 PharmarcyNameHere | All Rights Reserved
-                            </div>
-                        </div>
+                        <div className='col-md-1'></div>
                     </div>
                 </div>
             </div>
         </>
     )
 }
-
-
-export default Footer;
+export default Footer

@@ -5,7 +5,7 @@ a  {
     text-decoration: none;
 }
 .MainNav  .active  {
-    opacity: 0.7;
+    opacity: 0.5;
     transition: 0.5s;
 }
 

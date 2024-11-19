@@ -1,11 +1,12 @@
 import image1 from '../Images/4.jpg'
-import image2 from '../Images/14.webp'
-import image3 from '../Images/10.jpg'
+import image2 from '../Images/24hrs.png'
+import image3 from '../Images/1Global link logo-01.png'
 import image4 from '../Images/19.jpg'
 import image5 from '../Images/21.jpg'
 import image6 from '../Images/20.jpg'
 import image7 from '../Images/23.jpg'
 import image8 from '../Images/249144.jpg'
+import image9 from '../Images/portrait-female-pharmacist-working-drugstore.jpg'
 import {BiSolidQuoteSingleLeft, BiSolidQuoteSingleRight} from 'react-icons/bi'
 
 
@@ -20,31 +21,16 @@ const Home = () => {
     return (<>
         <div>
             <div className='section1 bg-dark'>
-                <div style={{ background: `url(${image8}) center fixed no-repeat`, backgroundSize: 'cover', minHeight: '100vh', width: '100%' }}>
-                    <div className='p-3' >
-                        <div className='row'>
-                            <div className='col-md-1'></div>
-                            <div className='col-md-10 col-12'>
-                                <div style={{ minHeight: '50vh' }}>
-                                    <div className='d-flex flex-column h-100 justify-content-center'>
-                                        <div>
-                                            <div className='bg-ligh' style={{ margin: '40px' }}>
-                                                {/* <div className='fw-bold display-4'>
-                                                    <img width='50%' src={image7} />
-                                                </div>
-                                                <div>
-                                                    Cupidatat aute eiusmod adipisicing nulla adipisicing qui cupidatat
-                                                    occaecat veniam occaecat aliqua fugiat.
-                                                </div>
-                                                <div className='mt-2'>
-                                                    <button className='btn btn-lg rounded-0 btn-outline-dark'>Contact Us</button>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='container'>
+                <div style={{paddingTop:'100px',alignContent:'center', background: `url(${image8}) center fixed no-repeat`, backgroundSize: 'cover', minHeight: '100vh', width: '100%' }}>
+                    <div className='p-3  ' >
+                        <div className=''>
+                            <div className=' '>
+                                <div className='container ' style={{alignContent:'center'}}>
                                     <div className=''>
+                                        <div className='py-4 d-flex justify-content-start' style={{}} >
+                                            <img src={image3} height='100%' width='350px'/>
+                                            <img src={image2}  height='100%' width='100px'/>
+                                        </div>
                                         <div className='row'>
                                             <div className='col-6 col-md-3 p-2  option'>
                                                 <div className='shadow' style={{ height: '200px', position: 'relative' }}>
@@ -99,7 +85,6 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-1'></div>
                         </div>
                     </div>
                 </div>
@@ -109,7 +94,7 @@ const Home = () => {
                     <div className='text-center container'>
                         <div className='h2 fw-bold my-3'>Welcome</div>
                         <div className='fs-4 fw-thin'>
-                        Welcome to Global Link Pharmacy, where your health and well-being are our top priorities. Our commitment is to provide high-quality medications, personalized health advice, and exceptional customer care."    
+                        Welcome to Global Link Pharmacy, where your health and well-being are our top priorities. Our commitment is to provide high-quality medications, personalized health advice, and exceptional customer care.    
                         </div>
                     </div>
                     <div>
@@ -123,7 +108,7 @@ const Home = () => {
                                         <br className='' />
                                         <div className='row'>
                                             {
-                                                TestimonialsWriteups.map((data) =>  <Testimonials name={data.name} info={data.info}/>)
+                                                TestimonialsWriteups.map((data) =>  <Testimonials image={data.image} name={data.name} info={data.info}/>)
                                             }
                                            
                                         </div>
@@ -134,30 +119,25 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div style={{height:'300px', background:`url(${image7}) center`, overflow:'hidden'}}>
+            <div style={{height:'300px', background:`url(${image9}) center`, backgroundSize:'cover', overflow:'hidden'}}>
                 <div style={{backgroundColor:'rgba(0,0,0,0.5)', height:'100%'}}>
-                    <div className='p-3  h-100'>
-                        <div className='row h-100'>
-                            <div className='col-md-1'></div>
-                            <div className='col-md-10 h-100 col-12'>
-                                <div className='row h-100'>
+                    <div className='p-3  h-100' style={{ alignContent:'center'}}>
+                        <div className=''>
+                            <div className=''>
+                                <div className='row'>
                                     <div className='col-12 col-md-6  justify-content-center flex-column d-flex'>
                                         <div className='text-white h1 text-center fw-bold'>ARE YOU READY TO WORK TOGETHER</div>
                                     </div>
                                     <div className='col-12 col-md-6   justify-content-center flex-column d-flex'>
                                         <div className='text-center'>
-                                            <button className='btn fs-2 btn-danger btn-lg '>Get in touch</button>
+                                            <button className='btn fs-2 btn-success btn-lg '>Get in touch</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-1'></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='bg-dark' style={{minHeight:'100vh'}}>
-                
             </div>
         </div>
     </>)
