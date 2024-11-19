@@ -5,7 +5,7 @@ import image4 from '../Images/19.jpg'
 import image5 from '../Images/21.jpg'
 import image6 from '../Images/20.jpg'
 import image7 from '../Images/23.jpg'
-import image8 from '../Images/22.jpg'
+import image8 from '../Images/249144.jpg'
 import {BiSolidQuoteSingleLeft, BiSolidQuoteSingleRight} from 'react-icons/bi'
 
 
@@ -97,9 +97,6 @@ const Home = () => {
 
                                         </div>
                                     </div>
-                                    <div className='text-warning fw-bold text-center fs-2'>
-                                    "Your Trusted Partner in Health and Wellness"
-                                    </div>
                                 </div>
                             </div>
                             <div className='col-md-1'></div>
@@ -110,8 +107,8 @@ const Home = () => {
             <div style={{ minHeight: '100vh', padding:'' }} className='bg-dark p-3 '>
                 <div className='text-white'>
                     <div className='text-center container'>
-                        <div className='display-3 fw-bold my-3'>ABOUT US</div>
-                        <div className='fs-4'>
+                        <div className='h2 fw-bold my-3'>Welcome</div>
+                        <div className='fs-4 fw-thin'>
                         Welcome to Global Link Pharmacy, where your health and well-being are our top priorities. Our commitment is to provide high-quality medications, personalized health advice, and exceptional customer care."    
                         </div>
                     </div>
@@ -145,11 +142,11 @@ const Home = () => {
                             <div className='col-md-10 h-100 col-12'>
                                 <div className='row h-100'>
                                     <div className='col-12 col-md-6  justify-content-center flex-column d-flex'>
-                                        <div className='text-white display-4 fw-bold'>ARE YOU READY TO WORK TOGETHER</div>
+                                        <div className='text-white h1 text-center fw-bold'>ARE YOU READY TO WORK TOGETHER</div>
                                     </div>
                                     <div className='col-12 col-md-6   justify-content-center flex-column d-flex'>
                                         <div className='text-center'>
-                                            <button className='btn fs-2 btn-danger btn-lg rounded-0'>Get in touch</button>
+                                            <button className='btn fs-2 btn-danger btn-lg '>Get in touch</button>
                                         </div>
                                     </div>
                                 </div>
@@ -160,176 +157,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='bg-dark' style={{minHeight:'100vh'}}>
-                <div className='text-white text-center pt-5 '>
-                    <div className='display-4 '>Some header here</div>
-                    <div className='h3 text-warning'>
-                        some minor heading down here
-                    </div>
-                    <div>
-                        <div className='p-3'>
-                            <div className='row'>
-                                <div className='col-md-1'></div>
-                                <div className='col-md-10 col-12'>
-                                    <div>
-                                        <div className='row'>
-                                            <div className='col-12 p-2 col-md-4'>
-                                                <div className=''>
-                                                    <div className='d-flex'>
-                                                        <div className='py-2'>
-                                                            <img src={image1} width='80px' />
-                                                        </div>
-                                                        <div className='ps-2'>
-                                                            <div className='text-start'>
-                                                                <div style={{fontSize:'14px'}} className='m-0 text-uppercase'>name of comment maker/reviewer</div>
-                                                                <div style={{fontSize:'12px'}}>some details about the above</div>
-                                                            </div>
-                                                            <div className='text-start'>
-                                                                <div className='p-3'>
-                                                                    <BiSolidQuoteSingleLeft size={30}/>
-                                                                    Proident incididunt commodo ad non nisi cillum
-                                                                     dolore cillum aliqua nostrud sint reprehenderit.
-                                                                      Proident sit esse amet eiusmod est. Magna conse
-                                                                      ctetur adipisicing
-                                                                      <BiSolidQuoteSingleRight size={30}/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='col-12 p-2 col-md-4'>
-                                                <div className=''>
-                                                    <div className='d-flex'>
-                                                        <div className='py-2'>
-                                                            <img src={image1} width='80px' />
-                                                        </div>
-                                                        <div className='ps-2'>
-                                                            <div className='text-start'>
-                                                                <div style={{fontSize:'14px'}} className='m-0 text-uppercase'>name of comment maker/reviewer</div>
-                                                                <div style={{fontSize:'12px'}}>some details about the above</div>
-                                                            </div>
-                                                            <div className='text-start'>
-                                                                <div className='p-3'>
-                                                                    <BiSolidQuoteSingleLeft size={30}/>
-                                                                    Proident incididunt commodo ad non nisi cillum
-                                                                     dolore cillum aliqua nostrud sint reprehenderit.
-                                                                      Proident sit esse amet eiusmod est. Magna conse
-                                                                      ctetur adipisicing
-                                                                      <BiSolidQuoteSingleRight size={30}/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='col-12 p-2 col-md-4'>
-                                                <div className=''>
-                                                    <div className='d-flex'>
-                                                        <div className='py-2'>
-                                                            <img src={image1} width='80px' />
-                                                        </div>
-                                                        <div className='ps-2'>
-                                                            <div className='text-start'>
-                                                                <div style={{fontSize:'14px'}} className='m-0 text-uppercase'>name of comment maker/reviewer</div>
-                                                                <div style={{fontSize:'12px'}}>some details about the above</div>
-                                                            </div>
-                                                            <div className='text-start'>
-                                                                <div className='p-3'>
-                                                                    <BiSolidQuoteSingleLeft size={30}/>
-                                                                    Proident incididunt commodo ad non nisi cillum
-                                                                     dolore cillum aliqua nostrud sint reprehenderit.
-                                                                      Proident sit esse amet eiusmod est. Magna conse
-                                                                      ctetur adipisicing
-                                                                      <BiSolidQuoteSingleRight size={30}/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='col-12 p-2 col-md-4'>
-                                                <div className=''>
-                                                    <div className='d-flex'>
-                                                        <div className='py-2'>
-                                                            <img src={image1} width='80px' />
-                                                        </div>
-                                                        <div className='ps-2'>
-                                                            <div className='text-start'>
-                                                                <div style={{fontSize:'14px'}} className='m-0 text-uppercase'>name of comment maker/reviewer</div>
-                                                                <div style={{fontSize:'12px'}}>some details about the above</div>
-                                                            </div>
-                                                            <div className='text-start'>
-                                                                <div className='p-3'>
-                                                                    <BiSolidQuoteSingleLeft size={30}/>
-                                                                    Proident incididunt commodo ad non nisi cillum
-                                                                     dolore cillum aliqua nostrud sint reprehenderit.
-                                                                      Proident sit esse amet eiusmod est. Magna conse
-                                                                      ctetur adipisicing
-                                                                      <BiSolidQuoteSingleRight size={30}/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='col-12 p-2 col-md-4'>
-                                                <div className=''>
-                                                    <div className='d-flex'>
-                                                        <div className='py-2'>
-                                                            <img src={image1} width='80px' />
-                                                        </div>
-                                                        <div className='ps-2'>
-                                                            <div className='text-start'>
-                                                                <div style={{fontSize:'14px'}} className='m-0 text-uppercase'>name of comment maker/reviewer</div>
-                                                                <div style={{fontSize:'12px'}}>some details about the above</div>
-                                                            </div>
-                                                            <div className='text-start'>
-                                                                <div className='p-3'>
-                                                                    <BiSolidQuoteSingleLeft size={30}/>
-                                                                    Proident incididunt commodo ad non nisi cillum
-                                                                     dolore cillum aliqua nostrud sint reprehenderit.
-                                                                      Proident sit esse amet eiusmod est. Magna conse
-                                                                      ctetur adipisicing
-                                                                      <BiSolidQuoteSingleRight size={30}/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className='col-12 p-2 col-md-4'>
-                                                <div className=''>
-                                                    <div className='d-flex'>
-                                                        <div className='py-2'>
-                                                            <img src={image1} width='80px' />
-                                                        </div>
-                                                        <div className='ps-2'>
-                                                            <div className='text-start'>
-                                                                <div style={{fontSize:'14px'}} className='m-0 text-uppercase'>name of comment maker/reviewer</div>
-                                                                <div style={{fontSize:'12px'}}>some details about the above</div>
-                                                            </div>
-                                                            <div className='text-start'>
-                                                                <div className='p-3'>
-                                                                    <BiSolidQuoteSingleLeft size={30}/>
-                                                                    Proident incididunt commodo ad non nisi cillum
-                                                                     dolore cillum aliqua nostrud sint reprehenderit.
-                                                                      Proident sit esse amet eiusmod est. Magna conse
-                                                                      ctetur adipisicing
-                                                                      <BiSolidQuoteSingleRight size={30}/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='col-md-1'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </>)
