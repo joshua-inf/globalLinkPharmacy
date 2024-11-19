@@ -1,4 +1,5 @@
 import image from '../Images/13.jpg'
+import image2 from '../Images/22.jpg'
 
 const AboutUS  = () => {
     return (
@@ -33,7 +34,7 @@ const AboutUS  = () => {
                         </div>
                         <div className='col-6'>
                             <div style={{maxHeight:'100%', overflow:'hidden', borderRadius:'10px'}}>
-                                <img src={image} width='100%' />
+                                <img src={image2} width='100%' />
                             </div>
                         </div>
                     </div>
