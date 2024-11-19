@@ -1,4 +1,5 @@
 import image from '../Images/freepik__expand__76729.png'
+import image1 from '../Images/portrait-woman-working-pharmaceutical-industry-1.jpg'
 import image2 from '../Images/22.jpg'
 import { FaCheckDouble } from "react-icons/fa";
 import image3 from '../Images/freepik_br_93db15b1-5d0d-44fb-a5b8-5797f9276161.png'
@@ -59,7 +60,7 @@ const AboutUS = () => {
                     </div>
                 </div>
 
-                <div className='text-light' style={{ background: `url(${image}) center no-repeat`,  backgroundSize: 'cover' }}>
+                <div className='text-light' style={{ background: `url(${image1}) center no-repeat`,  backgroundSize: 'cover' }}>
                     <div className='d-flex  px-4' style={{ backgroundColor: 'rgba(0, 0, 0,0.8)',paddingBlock:'100px', height: '100%', justifyContent:'start', alignContent:'center', alignItems:'center' }}>
                         <div className='container'>
                             <div className='' >
