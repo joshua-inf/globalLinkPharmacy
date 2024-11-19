@@ -27,7 +27,6 @@ const Home = () => {
                                     <div className=''>
                                         <div className='py-4 d-flex justify-content-start' style={{}} >
                                             <img src={image3} height='100%' width='300px'/>
-                                            <img src={image2}  height='100%' width='80px'/>
                                         </div>
                                         <div className='row'>
                                             <div className='col-6 col-md-3 p-2  option'>
