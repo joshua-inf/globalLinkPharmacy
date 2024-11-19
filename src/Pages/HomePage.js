@@ -10,6 +10,8 @@ import {BiSolidQuoteSingleLeft, BiSolidQuoteSingleRight} from 'react-icons/bi'
 
 
 import { AiOutlineCheckCircle } from 'react-icons/ai'
+import { Testimonials } from './jsxcomponents'
+import { TestimonialsWriteups } from './info'
 
 
 
@@ -17,7 +19,7 @@ import { AiOutlineCheckCircle } from 'react-icons/ai'
 const Home = () => {
     return (<>
         <div>
-            <div className='section1'>
+            <div className='section1 bg-dark'>
                 <div style={{ background: `url(${image8}) center fixed no-repeat`, backgroundSize: 'cover', minHeight: '100vh', width: '100%' }}>
                     <div className='p-3' >
                         <div className='row'>
@@ -41,7 +43,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
+                                <div className='container'>
                                     <div className=''>
                                         <div className='row'>
                                             <div className='col-6 col-md-3 p-2  option'>
@@ -51,7 +53,7 @@ const Home = () => {
                                                         <div className='background'></div>
                                                     </div>
                                                     <div className='text-option' style={{}}>
-                                                        Pharmarcy
+                                                    Wellness Products
                                                     </div>
                                                     <div style={{ backgroundColor: 'yellow', height: '20px', width: '100%', position: 'absolute', bottom: '0' }}></div>
                                                 </div>
@@ -63,7 +65,7 @@ const Home = () => {
                                                         <div className='background'></div>
                                                     </div>
                                                     <div className='text-option' style={{}}>
-                                                        Pharmarcuticals
+                                                        Prescription Fulfillment
                                                     </div>
                                                     <div style={{ backgroundColor: 'yellow', height: '20px', width: '100%', position: 'absolute', bottom: '0' }}></div>
                                                 </div>
@@ -75,7 +77,7 @@ const Home = () => {
                                                         <div className='background'></div>
                                                     </div>
                                                     <div className='text-option' style={{}}>
-                                                        Enterprises
+                                                    Over-the-Counter Medications
                                                     </div>
                                                     <div style={{ backgroundColor: 'yellow', height: '20px', width: '100%', position: 'absolute', bottom: '0' }}></div>
                                                 </div>
@@ -87,13 +89,16 @@ const Home = () => {
                                                         <div className='background'></div>
                                                     </div>
                                                     <div className='text-option' style={{}}>
-                                                        Cash Express
+                                                    Health Consultations
                                                     </div>
                                                     <div style={{ backgroundColor: 'yellow', height: '20px', width: '100%', position: 'absolute', bottom: '0' }}></div>
                                                 </div>
                                             </div>
 
                                         </div>
+                                    </div>
+                                    <div className='text-warning fw-bold text-center fs-2'>
+                                    "Your Trusted Partner in Health and Wellness"
                                     </div>
                                 </div>
                             </div>
@@ -102,79 +107,31 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ minHeight: '100vh', padding:'150px 20px' }} className='bg-dark '>
+            <div style={{ minHeight: '100vh', padding:'' }} className='bg-dark p-3 '>
                 <div className='text-white'>
-                    <div className='text-center'>
-                        <div className='display-3'>ABOUT US</div>
-                        <div className='text-warning'>Quis commodo quis voluptate in.</div>
-                        <div>
-                            Veniam nulla veniam et laborum minim aliquip. Voluptate non sit id ipsum ut enim. Esse do eiusmod Lorem laboris irure eu qui aute proident nisi.
-                            Veniam nulla veniam et laborum minim aliquip. Voluptate non sit id ipsum ut enim. Esse do eiusmod Lorem laboris irure eu qui aute proident nisi.
+                    <div className='text-center container'>
+                        <div className='display-3 fw-bold my-3'>ABOUT US</div>
+                        <div className='fs-4'>
+                        Welcome to Global Link Pharmacy, where your health and well-being are our top priorities. Our commitment is to provide high-quality medications, personalized health advice, and exceptional customer care."    
                         </div>
                     </div>
                     <div>
                         <div>
                             <div className='row'>
-                                <div className='col-md-1'></div>
-                                <div className='col-md-10 col-12'>
-                                    <div className='py-5 my-5'>
+                                <div className=''>
+                                    <div className='py-5 my-5 container'>
+                                        <div className='text-uppercase text-center fs-3 fw-bold'>
+                                            Testimonials
+                                        </div>
+                                        <br className='' />
                                         <div className='row'>
-                                            <div className='col-md-3 col-6'>
-                                                <div className='bg-secondary' style={{height:'150px'}}></div>
-                                                <div>
-                                                    <div className='p-2'>Silkay group info</div>
-                                                    <div className='p-2' style={{fontSize:'10px'}}>
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                    </div>
-                                                </div>
-                                                <div className='py-2'>
-                                                    <button className='btn btn-outline-warning rounded-0'>Read Me</button>
-                                                </div>
-                                            </div>
-                                            <div className='col-md-3 col-6'>
-                                                <div className='bg-secondary' style={{height:'150px'}}></div>
-                                                <div>
-                                                    <div className='p-2'>Silkay group info</div>
-                                                    <div className='p-2' style={{fontSize:'10px'}}>
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                    </div>
-                                                </div>
-                                                <div className='py-2'>
-                                                    <button className='btn btn-outline-warning rounded-0'>Read Me</button>
-                                                </div>
-                                            </div>
-                                            <div className='col-md-3 col-6'>
-                                                <div className='bg-secondary' style={{height:'150px'}}></div>
-                                                <div>
-                                                    <div className='p-2'>Silkay group info</div>
-                                                    <div className='p-2' style={{fontSize:'10px'}}>
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                    </div>
-                                                </div>
-                                                <div className='py-2'>
-                                                    <button className='btn btn-outline-warning rounded-0'>Read Me</button>
-                                                </div>
-                                            </div>
-                                            <div className='col-md-3 col-6'>
-                                                <div className='bg-secondary' style={{height:'150px'}}></div>
-                                                <div>
-                                                    <div className='p-2'>Silkay group info</div>
-                                                    <div className='p-2' style={{fontSize:'10px'}}>
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                        Qui non consectetur aliqua aute ea ea laboris in tempor do veniam laborum amet.
-                                                    </div>
-                                                </div>
-                                                <div className='py-2'>
-                                                    <button className='btn btn-outline-warning rounded-0'>Read Me</button>
-                                                </div>
-                                            </div>
+                                            {
+                                                TestimonialsWriteups.map((data) =>  <Testimonials name={data.name} info={data.info}/>)
+                                            }
+                                           
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-md-1'></div>
                             </div>
                         </div>
                     </div>
