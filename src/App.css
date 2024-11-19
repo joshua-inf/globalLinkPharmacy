@@ -1,4 +1,7 @@
 
+* {
+    font-family: sans-serif;
+}
 a  {
     color: white;
     transition: 0.5s;

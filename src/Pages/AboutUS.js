@@ -91,15 +91,17 @@ const AboutUS = () => {
                                 </div>
                             </div>
 
-                            <div className='container' style={{minHeight:'75vh', alignContent:'center'}}>
-                                <div className='text-center'>
-                                    <h5 className='text-uppercase'>meet our team</h5>
-                                    <div className='fs-2'>
-                                    We talk a lot about hope and teamwork
+                            <div className='d-flex' style={{paddingTop:'150px',justifyContent:"center", alignContent:'center', alignItems:"center"}}>
+                                <div className=''>
+                                    <div className='text-center'>
+                                        <h5 className='text-uppercase'>meet our team</h5>
+                                        <div className='fs-2'>
+                                        We talk a lot about hope and teamwork
+                                        </div>
                                     </div>
-                                </div>
-                                <div className='row'>
-                                    {founderData.map(e => <FounderComp name={e.name} image={e.image} links={e.links} title={e.title} />)}
+                                    <div className='row'>
+                                        {founderData.map(e => <FounderComp name={e.name} image={e.image} links={e.links} title={e.title} />)}
+                                    </div>
                                 </div>
                             </div>
                         </div>

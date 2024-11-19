@@ -56,18 +56,20 @@ export const FounderComp = ({image, name, title, links})=>{
     return(
         <>
         <div className="col-3">
-            <div className="text-center">
-                <div style={{}}>
-                    <img src={image} style={{borderRadius:'50%'}} width='200px'/>
+            <div className="text-center p-4" >
+                <div className="d-flex my-4" style={{justifyContent:'center', alignContent:"center", alignItems:'center'}}>
+                    <div style={{borderRadius:'50%', width:'150px', height:'150px', overflow:'hidden'}}>
+                        <img src={image}  width='100%'/>
+                    </div>
                 </div>
-                <div>
+                <div className="h6">
                     {name}
                 </div>
-                <div>
+                <div style={{fontSize:'13px'}}>
                     {title}
                 </div>
                 <div>
-                    {links}
+                    {/* {links} */}
                 </div>
             </div>
         </div>

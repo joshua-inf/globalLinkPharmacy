@@ -28,8 +28,8 @@ const Home = () => {
                                 <div className='container ' style={{alignContent:'center'}}>
                                     <div className=''>
                                         <div className='py-4 d-flex justify-content-start' style={{}} >
-                                            <img src={image3} height='100%' width='350px'/>
-                                            <img src={image2}  height='100%' width='100px'/>
+                                            <img src={image3} height='100%' width='300px'/>
+                                            <img src={image2}  height='100%' width='80px'/>
                                         </div>
                                         <div className='row'>
                                             <div className='col-6 col-md-3 p-2  option'>

@@ -3,7 +3,10 @@ import image2 from '../Images/portrait-senior-brazilian-black-man-with-white-hat
 import image3 from '../Images/girl-mom-work-from-home-working-home-effect-from-covid-19-virus-disease.jpg'
 import image4 from '../Images/lesson-online-english-courses-home.jpg'
 
-import fimage from '../Images/24.jpg'
+import fimage from '../Images/Ezra.png'
+import fimage2 from '../Images/musonda.jpg'
+import fimage3 from '../Images/ruth.png'
+import fimage4 from '../Images/mrs banda.jpg'
 
 export let TestimonialsWriteups = [
     {
@@ -32,9 +35,35 @@ export let TestimonialsWriteups = [
 
 export let founderData = [
     {
-        name:'name',
+        name:' Ezra Sitali',
         image: fimage,
-        title:'title',
+        title:'Pharmacy Technologist',
+        description:'Ezra Sitali is a highly skilled and dedicated Pharmacy Technologist and Manager at Global Link Pharmacy. With a Diploma in Pharmacy, Ezra brings a wealth of knowledge, technical expertise, and exceptional leadership skills to his role, ensuring the seamless operation of the pharmacy and the delivery of top-tier healthcare services to the community.',
+        Qualifications:'Diploma In Pharmacy',
         links:'link'
+    },
+    {
+        name:'Musonda Chikwete',
+        image: fimage2,
+        Qualifications:'Bachelors Degree In Pharmacy',
+        title:'Pharmacist',
+        description:"Musonda Chikwete is an accomplished Pharmacist and Manager at Global Link Pharmacy, bringing a wealth of expertise, leadership, and a passion for advancing healthcare services. With a Bachelor's Degree in Pharmacy and a proven track record in pharmaceutical care and management, Musonda is committed to providing innovative, patient-centered solutions that enhance the health and well-being of the community",
+        links:{}
+    },
+    {
+        name:'Ruth Phiri',
+        image: fimage3,
+        Qualifications:'Bachelers Degree In Nursing and Midwifey',
+        description:"Ruth Phiri is an accomplished Nurse at Global Link Pharmacy, bringing extensive experience, compassionate care, and a dedication to advancing healthcare services. With a Bachelor’s Degree in Nursing and Midwifery, Ruth is a vital part of the team, blending her clinical expertise with a patient-centered approach to deliver exceptional health and wellness solutions.",
+        title:' Nurse',
+        links:{}
+    },
+    {
+        name:'Brenda Mbulo',
+        image: fimage4,
+        title:  "Cosmetics Sale's lady",
+        description:'Mrs. Brenda Mbulo is an accomplished professional serving as a Cosmetics Sales Specialist at Global Link Pharmacy. With a Bachelor’s Degree in Education and a natural flair for interpersonal communication, Brenda has successfully transitioned her skills into the beauty and skincare industry. She combines her background in education with her passion for cosmetics to provide customers with personalized recommendations and expert guidance on beauty and skincare products.',
+        Qualifications:'Teacher',
+        links:{}
     }
 ]
